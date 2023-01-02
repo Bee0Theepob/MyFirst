@@ -19,7 +19,7 @@ function moveblue() {
                 }
                 let blastsc = document.getElementById(position[i + 27 + blueleft]);
                 let btargetsc = document.getElementById(position[i]);
-                bnextstepsc.innerHTML = '<div class="bteamleader">L</div>';
+                bnextstepsc.innerHTML = '<div class="bteamleader">P1</div>';
                 btargetsc.innerHTML = '<div class="bteam"></div>';
                 blastsc.innerHTML = "";
                 if (eatred.includes("rteamleader")) {
@@ -37,7 +37,7 @@ function moveblue() {
                 }
                 let blast = document.getElementById(position[i + blueleft - 1]);
                 bleader.innerHTML = '<div class="bteam"></div>';
-                bnextstep.innerHTML = '<div class="bteamleader">L</div>';
+                bnextstep.innerHTML = '<div class="bteamleader">P1</div>';
                 blast.innerHTML = "";
                 if (eatred.includes("rteamleader")) {
                     alert("you win")
@@ -64,11 +64,11 @@ function movered() {
                 }
                 let rlastsc = document.getElementById(position[i + 27 + redleft]);
                 let rtargetsc = document.getElementById(position[i]);
-                rnextstepsc.innerHTML = '<div class="rteamleader">L</div>';
+                rnextstepsc.innerHTML = '<div class="rteamleader"></div>';
                 rtargetsc.innerHTML = '<div class="rteam"></div>';
                 rlastsc.innerHTML = "";
                 if (eatblue.includes("bteamleader")) {
-                    alert("you lose")
+                    alert("you lose กากจังอะ ฮาโหลลลลลลลล")
 
                 }
                 break
@@ -84,10 +84,10 @@ function movered() {
                 }
                 let rlast = document.getElementById(position[i + redleft - 1]);
                 rleader.innerHTML = '<div class="rteam"></div>';
-                rnextstep.innerHTML = '<div class="rteamleader">L</div>';
+                rnextstep.innerHTML = '<div class="rteamleader"></div>';
                 rlast.innerHTML = "";
                 if (eatblue.includes("bteamleader")) {
-                    alert("you lose")
+                    alert("you lose กากจังอะ ฮาโหลลลลลลลล")
 
                 }
                 break
