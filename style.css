@@ -1,0 +1,43 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+   body {
+  background:#FF80AB;
+  }
+  
+  td {
+      height: 50px;
+      width: 50px;
+  }
+  .rteamleader,.rteam {
+      height: 20px;
+      width: 20px;
+      background-color: red;
+      border: 2px solid blue;
+      border-radius: 50px;
+      color: yellow;
+  }
+  .bteamleader,.bteam {
+      height: 20px;
+      width: 20px;
+      background-color: blue;
+      border: 2px solid red;
+      border-radius: 50px;
+      color: yellow;
+  }
+  .js {
+      float: left;
+  }
+  .player {
+      float: right;
+  }
+  .map{
+    background:#5D52FF;
+    padding:1em;
+    border-radius:1em;
+    width:100%;
+    max-width:750px;
+    margin:1rem auto;
+  }
+  
