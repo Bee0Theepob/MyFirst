@@ -24,7 +24,7 @@ function moveblue() {
                 blastsc.innerHTML = "";
                 if (eatred.includes("rteamleader")) {
                     alert("you win")
-
+                    location.reload();
                 }
                 break
             } else {
@@ -40,7 +40,8 @@ function moveblue() {
                 bnextstep.innerHTML = '<div class="bteamleader">P1</div>';
                 blast.innerHTML = "";
                 if (eatred.includes("rteamleader")) {
-                    alert("you win")
+                    alert("you win");
+                    location.reload();                    
 }
                 break
             }
@@ -69,7 +70,7 @@ function movered() {
                 rlastsc.innerHTML = "";
                 if (eatblue.includes("bteamleader")) {
                     alert("you lose กากจังอะ ฮาโหลลลลลลลล")
-
+                    location.reload();
                 }
                 break
             } else {
@@ -88,7 +89,7 @@ function movered() {
                 rlast.innerHTML = "";
                 if (eatblue.includes("bteamleader")) {
                     alert("you lose กากจังอะ ฮาโหลลลลลลลล")
-
+                    location.reload();
                 }
                 break
             }
