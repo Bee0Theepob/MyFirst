@@ -65,7 +65,7 @@ function movered() {
                 }
                 let rlastsc = document.getElementById(position[i + 27 + redleft]);
                 let rtargetsc = document.getElementById(position[i]);
-                rnextstepsc.innerHTML = '<div class="rteamleader"></div>';
+                rnextstepsc.innerHTML = '<div class="rteamleader">bot</div>';
                 rtargetsc.innerHTML = '<div class="rteam"></div>';
                 rlastsc.innerHTML = "";
                 if (eatblue.includes("bteamleader")) {
@@ -85,7 +85,7 @@ function movered() {
                 }
                 let rlast = document.getElementById(position[i + redleft - 1]);
                 rleader.innerHTML = '<div class="rteam"></div>';
-                rnextstep.innerHTML = '<div class="rteamleader"></div>';
+                rnextstep.innerHTML = '<div class="rteamleader">bot</div>';
                 rlast.innerHTML = "";
                 if (eatblue.includes("bteamleader")) {
                     alert("you lose กากจังอะ ฮาโหลลลลลลลล")
@@ -111,6 +111,12 @@ function rock() {
         botchoose.innerHTML = "<div>scissors  (YOU WIN)</div>"
         moveblue();
     }
+    // while (true){
+    //     moveblue();
+    //     if (redleft==0){
+    //         break;
+    //     }
+    // }
 }
 function paper() {
     let ran = Math.floor(Math.random() * enemychoice.length);
